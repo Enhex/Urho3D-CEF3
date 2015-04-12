@@ -81,9 +81,6 @@ void MyApp::Stop()
 	UnsubscribeFromEvent(E_PHYSICSPRESTEP);
 
 	//browser->GetHost()->CloseBrowser(true);
-	/*browser->Release();
-	textureClient->Release();
-	renderTextureHandler->Release();*/
 	SetErrorMode(SEM_FAILCRITICALERRORS | SEM_NOGPFAULTERRORBOX);
 	CefShutdown();
 }
@@ -140,7 +137,15 @@ void MyApp::CreateScene()
 	zone->SetFogStart(50.f);
 	zone->SetFogEnd(2000.f);
 
-	// Create a "screen" like object for viewing the browser
+	// Create a "screen" like object for viewing the second scene. Construct it from two StaticModels, a box for the frame
+	// and a plane for the actual view
+	Node* boxNode = scene->CreateChild("ScreenBox");
+	boxNode->SetPosition(Vector3(0.0f, 10.0f, 0.0f));
+	boxNode->SetScale(Vector3(21.0f, 16.0f, 0.5f));
+	StaticModel* boxObject = boxNode->CreateComponent<StaticModel>();
+	boxObject->SetModel(cache->GetResource<Model>("Models/Box.mdl"));
+	boxObject->SetMaterial(cache->GetResource<Material>("Materials/Stone.xml"));
+
 	auto screenNode = scene->CreateChild("Screen");
 	screenNode->SetPosition(Vector3(0.0f, 10.0f, -0.27f));
 	screenNode->SetRotation(Quaternion(-90.0f, 0.0f, 0.0f));
