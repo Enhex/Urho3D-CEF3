@@ -1,0 +1,249 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2015 1:30:03 PM.
+Project "E:\Urho3D\cef3_test\Build\CMakeFiles\3.0.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\Urho3D\cef3_test\Build\CMakeFiles\3.0.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "E:\Urho3D\cef3_test\Build\CMakeFiles\3.0.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/Urho3D/cef3_test/Build/CMakeFiles/3.0.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2015 1:30:04 PM.
+Project "E:\Urho3D\cef3_test\Build\CMakeFiles\3.0.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\Urho3D\cef3_test\Build\CMakeFiles\3.0.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "E:\Urho3D\cef3_test\Build\CMakeFiles\3.0.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.46
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/Urho3D/cef3_test/Build/CMakeFiles/3.0.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec815247770.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2015 1:30:05 PM.
+Project "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\cmTryCompileExec815247770.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec815247770.dir\Debug\".
+  Creating directory "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec815247770.dir\Debug\cmTryCom.E47893C5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec815247770.dir\Debug\cmTryCom.E47893C5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec815247770.dir\Debug\\" /Fd"cmTryCompileExec815247770.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec815247770.dir\Debug\\" /Fd"cmTryCompileExec815247770.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec815247770.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec815247770.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec815247770.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec815247770.dir\Debug\testCCompiler.obj
+  cmTryCompileExec815247770.vcxproj -> E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec815247770.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec815247770.dir\Debug\cmTryCom.E47893C5.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec815247770.dir\Debug\cmTryCom.E47893C5.tlog\cmTryCompileExec815247770.lastbuildstate".
+Done Building Project "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\cmTryCompileExec815247770.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3592406325.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2015 1:30:06 PM.
+Project "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\cmTryCompileExec3592406325.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3592406325.dir\Debug\".
+  Creating directory "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3592406325.dir\Debug\cmTryCom.6AC23DF9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3592406325.dir\Debug\cmTryCom.6AC23DF9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3592406325.dir\Debug\\" /Fd"cmTryCompileExec3592406325.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3592406325.dir\Debug\\" /Fd"cmTryCompileExec3592406325.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3592406325.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3592406325.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3592406325.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3592406325.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec3592406325.vcxproj -> E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3592406325.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3592406325.dir\Debug\cmTryCom.6AC23DF9.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3592406325.dir\Debug\cmTryCom.6AC23DF9.tlog\cmTryCompileExec3592406325.lastbuildstate".
+Done Building Project "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\cmTryCompileExec3592406325.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3068004179.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2015 1:30:06 PM.
+Project "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\cmTryCompileExec3068004179.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3068004179.dir\Debug\".
+  Creating directory "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3068004179.dir\Debug\cmTryCom.B08325E4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3068004179.dir\Debug\cmTryCom.B08325E4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3068004179.dir\Debug\\" /Fd"cmTryCompileExec3068004179.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3068004179.dir\Debug\\" /Fd"cmTryCompileExec3068004179.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3068004179.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3068004179.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3068004179.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3068004179.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec3068004179.vcxproj -> E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3068004179.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3068004179.dir\Debug\cmTryCom.B08325E4.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3068004179.dir\Debug\cmTryCom.B08325E4.tlog\cmTryCompileExec3068004179.lastbuildstate".
+Done Building Project "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\cmTryCompileExec3068004179.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec4231220231.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2015 1:30:07 PM.
+Project "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\cmTryCompileExec4231220231.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4231220231.dir\Debug\".
+  Creating directory "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4231220231.dir\Debug\cmTryCom.C7BEA2A0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4231220231.dir\Debug\cmTryCom.C7BEA2A0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4231220231.dir\Debug\\" /Fd"cmTryCompileExec4231220231.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4231220231.dir\Debug\\" /Fd"cmTryCompileExec4231220231.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4231220231.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4231220231.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Urho3D/cef3_test/Build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4231220231.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4231220231.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec4231220231.vcxproj -> E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4231220231.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4231220231.dir\Debug\cmTryCom.C7BEA2A0.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4231220231.dir\Debug\cmTryCom.C7BEA2A0.tlog\cmTryCompileExec4231220231.lastbuildstate".
+Done Building Project "E:\Urho3D\cef3_test\Build\CMakeFiles\CMakeTmp\cmTryCompileExec4231220231.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+

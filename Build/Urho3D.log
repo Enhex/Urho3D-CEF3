@@ -1,0 +1,11 @@
+[Sun Apr 12 19:08:44 2015] INFO: Opened log file Urho3D.log
+[Sun Apr 12 19:08:44 2015] INFO: Created 3 worker threads
+[Sun Apr 12 19:08:44 2015] INFO: Added resource path E:/Urho3D/cef3_test/Bin_Release/Data/
+[Sun Apr 12 19:08:44 2015] INFO: Added resource path E:/Urho3D/cef3_test/Bin_Release/CoreData/
+[Sun Apr 12 19:08:44 2015] WARNING: Skipped autoload folder Extra as it does not exist
+[Sun Apr 12 19:08:44 2015] INFO: Set screen mode 1024x768 windowed
+[Sun Apr 12 19:08:44 2015] INFO: Initialized input
+[Sun Apr 12 19:08:44 2015] INFO: Initialized user interface
+[Sun Apr 12 19:08:44 2015] INFO: Initialized renderer
+[Sun Apr 12 19:08:44 2015] INFO: Set audio mode 44100 Hz stereo interpolated
+[Sun Apr 12 19:08:44 2015] INFO: Initialized engine

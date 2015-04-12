@@ -1,0 +1,15 @@
+﻿Build started 12/4/2015 7:03:56 PM.
+     1>Project "E:\Urho3D\cef3_test\Build\cef3_test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\Urho3D\Urho3D\Source\Engine /IE:\Urho3D\Urho3D\Source\Engine\Audio /IE:\Urho3D\Urho3D\Source\Engine\Container /IE:\Urho3D\Urho3D\Source\Engine\Core /IE:\Urho3D\Urho3D\Source\Engine\Engine /IE:\Urho3D\Urho3D\Source\Engine\Graphics /IE:\Urho3D\Urho3D\Source\Engine\Input /IE:\Urho3D\Urho3D\Source\Engine\IO /IE:\Urho3D\Urho3D\Source\Engine\LuaScript /IE:\Urho3D\Urho3D\Source\Engine\Math /IE:\Urho3D\Urho3D\Source\Engine\Navigation /IE:\Urho3D\Urho3D\Source\Engine\Network /IE:\Urho3D\Urho3D\Source\Engine\Physics /IE:\Urho3D\Urho3D\Source\Engine\Resource /IE:\Urho3D\Urho3D\Source\Engine\Scene /IE:\Urho3D\Urho3D\Source\Engine\Script /IE:\Urho3D\Urho3D\Source\Engine\UI /IE:\Urho3D\Urho3D\Source\Engine\Urho2D /IE:\Urho3D\Urho3D\Source\ThirdParty\SDL\include /IE:\Urho3D\Urho3D\Source\ThirdParty\AngelScript\include /IE:\Urho3D\Urho3D\Source\ThirdParty\kNet\include /IE:\Urho3D\Urho3D\Source\ThirdParty\Bullet\src /IE:\Urho3D\Urho3D\Source\ThirdParty\Box2D /IE:\Urho3D\Urho3D\Build\Engine /IE:\cef\cef_binary_3.2272.2077_windows32 /Zi /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _SECURE_SCL=0 /D URHO3D_SSE /D URHO3D_PROFILING /D URHO3D_LOGGING /D URHO3D_OPENGL /D GLEW_STATIC /D GLEW_NO_GLU /D URHO3D_ANGELSCRIPT /D URHO3D_LUAJIT /D URHO3D_LUA /D URHO3D_NAVIGATION /D URHO3D_NETWORK /D URHO3D_PHYSICS /D URHO3D_URHO2D /D URHO3D_STATIC_DEFINE /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"cef3_test.dir\Release\\" /Fd"cef3_test.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Source\MyApp.cpp
+         MyApp.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Urho3D\cef3_test\Bin_Release\cef3_test.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib E:\Urho3D\Urho3D\Lib\Urho3D.lib winmm.lib imm32.lib version.lib ws2_32.lib opengl32.lib E:\cef\cef_binary_3.2272.2077_windows32\Release\libcef.lib E:\cef\cef_binary_3.2272.2077_windows32\build\libcef_dll\Release\libcef_dll_wrapper.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:/Urho3D/cef3_test/Bin/cef3_test.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Urho3D/cef3_test/Build/Release/cef3_test.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cef3_test.dir\Release\main.obj
+         cef3_test.dir\Release\MyApp.obj
+            Creating library E:/Urho3D/cef3_test/Build/Release/cef3_test.lib and object E:/Urho3D/cef3_test/Build/Release/cef3_test.exp
+         cef3_test.vcxproj -> E:\Urho3D\cef3_test\Bin_Release\cef3_test.exe
+     1>Done Building Project "E:\Urho3D\cef3_test\Build\cef3_test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.98
